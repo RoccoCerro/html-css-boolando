@@ -37,3 +37,72 @@ ol {
 .col-4{
     width: calc(4 * 100% / 12);
 }
+
+/* UTILITY */
+
+.color__red{
+    color: red;
+}
+
+/* STYLE */
+
+.badge{
+    background-color: red;
+    padding: 3px 10px;
+    color: white;
+}
+
+.sustainability{
+    background-color: green;
+    color: white;
+    padding: 3px 10px;
+}
+
+.card__header{
+    position: relative;
+}
+
+.card__header .badge, .card__header .sustainability, .card__header .favorites{
+    position: absolute;
+}
+
+.card__header > img {
+	display: block;
+}
+
+.card__header .badge{
+    bottom: 20px;
+    z-index: 1;
+}
+
+.card__header .sustainability{
+    bottom: 20px;
+    left:60px;
+    z-index: 1;
+}
+
+.card__header .favorites{
+    background-color: white;
+    padding: 5px 10px;
+    line-height: 30px;
+    font-size: 30px;
+    right: 0;
+    top: 10px;
+    z-index: 1;
+}
+
+/* HOVER */
+
+.img__hover{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.card .img__hover{
+    opacity: 0;
+}
+
+.card:hover .img__hover{
+    opacity: 1;
+}
