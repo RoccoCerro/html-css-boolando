@@ -38,10 +38,12 @@ ol {
 .row{
     display: flex;
     flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
 }
 
 .col-4{
-    width: calc(4 * 100% / 12);
+    width: calc(3 * 100% / 12);
 }
 
 /* UTILITY */
@@ -50,17 +52,19 @@ ol {
     color: red;
 }
 
+.color__white{
+    color: white;
+}
+
 /* STYLE */
 
 .badge{
     background-color: red;
     padding: 3px 10px;
-    color: white;
 }
 
 .sustainability{
     background-color: green;
-    color: white;
     padding: 3px 10px;
 }
 
