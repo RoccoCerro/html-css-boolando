@@ -41,7 +41,7 @@ ol {
 }
 
 .col-4{
-    width: calc(3 * 100% /12);
+    width: calc(4 * 100% /12);
 }
 
 .col-3{
@@ -68,10 +68,10 @@ ol {
 
 /* STYLE */
 
-main .row{
+/* main .row{
     gap: 15px;
     justify-content: center;
-}
+} */
 
 header .row{
     justify-content: space-between;
@@ -153,6 +153,10 @@ a{
 
 footer .row{
     justify-content: space-between;    
+}
+
+.card.product{
+    padding: 5px 5px;
 }
 
 /* HOVER */
