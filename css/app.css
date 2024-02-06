@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
+    font-size: small;
 }
 
 /* RESET */
@@ -87,7 +88,7 @@ ol {
 
 .card__header .sustainability{
     bottom: 20px;
-    left:60px;
+    left:55px;
     z-index: 1;
 }
 
@@ -99,6 +100,11 @@ ol {
     right: 0;
     top: 10px;
     z-index: 1;
+}
+
+.sustainability:last-of-type{
+    position: absolute;
+    left: 0;
 }
 
 /* HOVER */
