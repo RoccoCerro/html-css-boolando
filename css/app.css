@@ -45,7 +45,11 @@ ol {
 }
 
 .col-3{
-    max-width: 150px;
+    max-width: 160px;
+}
+
+.col-2{
+    max-height: 50px;
 }
 
 /* UTILITY */
@@ -76,6 +80,11 @@ header .row{
 
 .bg__header{
     background-color: #FF6900;
+}
+
+.bg__footer{
+    background-color: black;
+    padding: 20px 0px;
 }
 
 .badge{
@@ -132,6 +141,18 @@ main .container{
 
 header .container{
     padding: 10px 0;
+}
+
+.status{
+    line-height: 30px;
+}
+
+a{
+    padding-right: 5px;
+}
+
+footer .row{
+    justify-content: space-between;    
 }
 
 /* HOVER */
