@@ -66,12 +66,7 @@ ol {
     font-size: 20px;
 }
 
-/* STYLE */
-
-/* main .row{
-    gap: 15px;
-    justify-content: center;
-} */
+/* STYLE HEADER */
 
 header .row{
     justify-content: space-between;
@@ -82,10 +77,11 @@ header .row{
     background-color: #FF6900;
 }
 
-.bg__footer{
-    background-color: black;
-    padding: 20px 0px;
+header .container{
+    padding: 10px 0;
 }
+
+/* STYLE MAIN */
 
 .badge{
     background-color: red;
@@ -139,24 +135,27 @@ main .container{
     padding-bottom: 30px;
 }
 
-header .container{
-    padding: 10px 0;
+a{
+    padding-right: 5px;
+}
+
+.card.product{
+    padding: 5px 5px;
+}
+
+/* STYLE FOOTER */
+
+footer .row{
+    justify-content: space-between;    
 }
 
 .status{
     line-height: 30px;
 }
 
-a{
-    padding-right: 5px;
-}
-
-footer .row{
-    justify-content: space-between;    
-}
-
-.card.product{
-    padding: 5px 5px;
+.bg__footer{
+    background-color: black;
+    padding: 20px 0px;
 }
 
 /* HOVER */
