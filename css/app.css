@@ -24,7 +24,7 @@ a {
 
 menu,
 ul,
-ol {
+ol{
 	list-style: none;
 }
 
@@ -156,6 +156,46 @@ footer .row{
 .bg__footer{
     background-color: black;
     padding: 20px 0px;
+}
+
+.fa{
+    background: white;
+    color: black;
+    border-radius: 2px;
+}
+
+.col-2 .row{
+    line-height: 40px;
+    /* gap: 0; il gap non funziona*/
+}
+
+.fa-facebook{
+    padding-left: 4px;
+    padding-top: 2px;
+}
+
+.fa-twitter{
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-top: 2px;
+}
+
+.fa-instagram{
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-top: 2px;
+}
+
+.fa-pinterest{
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-top: 2px;
+}
+
+.fa-youtube{
+    padding-right: 2px;
+    padding-left: 2px;
+    padding-top: 2px;
 }
 
 /* HOVER */
