@@ -102,8 +102,7 @@ ol {
     z-index: 1;
 }
 
-.sustainability:last-of-type{
-    position: absolute;
+.sustainability.layout__dif{
     left: 0;
 }
 
